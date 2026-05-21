@@ -116,7 +116,7 @@ def main():
 
     print("[+] Just pick any of these, python3 or just python")
     pys=input('python3/python: ')
-    mode=1 if pys.lower() == 'python3' else 0
+    mode = 1 if pys.lower() == 'python3' else 0
     install_modules()
 
     print('='*4+'Starting KawaiiGPT'+'='*4)
